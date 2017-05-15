@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	
+</head>
+<body>
+	<h1>Events</h1>
+	
+	<button id="addEvent" >Додати нову подію</button>
+	<button id="allDataEvents" >Показати всі події</button>
+	<button id="maxPrice" >Знайти найдорожчий квиток</button>
+	<button id="minPrice" >Найдешевший квиток</button>
+	<!-- <button id="sortByPrice" >Сортувати за ціною</button> -->
+	<hr/>
+
+	<div id = "list"></div>
+
+	<!-- modal-window with information about product item -->
+	<div class="modal_wrapper" id="modalWindow">
+		<div class="modal_div">
+			<div>
+				<div  id="addForm">
+					<select id="type">
+						<option>football</option>
+						<option>film</option>
+						<option>performance</option>
+					</select>
+					<input type="text" placeholder="name of event" id="name" />
+					<input type="date" name="eventDay" id="date">
+					<input type="text" placeholder="city" id="city" />
+					<input type="text" placeholder="price" id="price" />
+					<button type="submit" id ='newEvent'>Додати подію</button>
+			  </div>	
+			</div>
+			<!-- <a href='#' id='addNewEvent' class='buy_button'>Додати подію</a> -->
+
+			<i class="close_icon" id="closeIcon">x</i>
+		</div>
+		<div id="overlay">
+		</div>
+	</div>
+	<!--End of modal-window -->
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="dist/bundle.js"></script>
+</body>
+</html>

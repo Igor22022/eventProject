@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "type": "football",
+      "name": "Динамо - Шахтар",
+      "date": "24-05-2017",
+      "city": "Lviv",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "type": "film",
+      "name": "Пірати Карибського моря",
+      "date": "25-05-2017",
+      "city": "Lviv",
+      "price": 140
+    },
+    {
+      "id": 3,
+      "type": "performance",
+      "name": "Сто тисяч",
+      "date": "11-05-2017",
+      "city": "Kyiv",
+      "price": 180
+    },
+    {
+      "id": 4,
+      "type": "film",
+      "name": "Шерлок",
+      "date": "02-06-2017",
+      "city": "Odesa",
+      "price": 120
+    },
+    {
+      "type": "football",
+      "name": "Реал - Барселона",
+      "date": "2017-06-07",
+      "city": "Barcelons",
+      "price": "600",
+      "id": 5
+    }
+  ]
+}
